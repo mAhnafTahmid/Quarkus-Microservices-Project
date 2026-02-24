@@ -6,7 +6,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-@RegisterRestClient
+@RegisterRestClient(configKey = "number.proxy")
 @Path("/api/numbers")
 public interface NumberProxy {
 
